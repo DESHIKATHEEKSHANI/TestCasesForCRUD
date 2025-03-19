@@ -29,7 +29,7 @@ public class ProductServiceImplTest {
     private ObjectMapper mapper;
 
     @InjectMocks
-    private ProductServiceImpl productService; // Concrete Implementation
+    private ProductServiceImpl productService;
 
     private Product product;
     private ProductEntity productEntity;
