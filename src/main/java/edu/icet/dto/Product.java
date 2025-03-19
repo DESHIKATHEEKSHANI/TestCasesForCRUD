@@ -1,17 +1,14 @@
 package edu.icet.dto;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Data
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Product {
     private Long id;
     private String name;
     private double price;
-
-    public Product(int i, String laptop, double v) {
-    }
 }

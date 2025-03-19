@@ -1,8 +1,7 @@
 package edu.icet.repository;
 
-import jdk.jfr.internal.jfc.model.Constraint;
+import edu.icet.entity.ProductEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class ProductRepository {
-    public Object save(Constraint any) {
-    }
+public interface ProductRepository extends JpaRepository<ProductEntity,Long> {
 }
